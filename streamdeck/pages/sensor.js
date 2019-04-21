@@ -15,6 +15,7 @@ const page = {
             displayImage(myStreamDeck, key, 'back.png')
         },
         action: (myStreamDeck, key, loadPage) => {
+            serialEmitter.removeAllListeners();
             loadPage('home');
 
         }

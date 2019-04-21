@@ -21,6 +21,7 @@ parser.on('data', function (data) {
 }) // emits data after every '$'
 
 function parse(data) {
+    try {
     data = data.split('\n');
     data = data.reduce((acc, item) => {
         const parts = item.split(':');
@@ -29,6 +30,9 @@ function parse(data) {
     }, {})
     // console.log(data);
     serialEmitter.emit('data', data);
+} catch (error) {
+    
+}
 }
 
 module.exports = {
