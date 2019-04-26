@@ -1,5 +1,5 @@
 # LiveGuard
-[image](https://raw.githubusercontent.com/FIT-X/liveguard/master/api/src/assets/logo.png)
+![image](https://raw.githubusercontent.com/FIT-X/liveguard/master/api/src/assets/logo.png)
 
 LifeGuard will enable lifeguards to do their jobs smarter and faster.
 
